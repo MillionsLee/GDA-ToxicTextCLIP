@@ -1,0 +1,23 @@
+# Python 3.12; install torch/torchvision with CUDA 12.1 separately.
+# Observed direct dependencies; fresh installation has not been validated.
+albumentations==1.4.24
+braceexpand==0.1.7
+ftfy==6.3.1
+inflect==7.5.0
+lightly==1.5.26
+loguru==0.7.3
+nltk==3.10.3
+numpy==2.5.2
+packaging==26.3
+pandas==2.3.3
+pillow==12.3.0
+regex==2026.9.10
+scikit-learn==1.9.1
+scipy==1.18.1
+tqdm==4.70.1
+transformers==5.17.0
+wandb==0.30.0
+webdataset==0.2.86
+# Conda build-path packages: obtain compatible registry distributions.
+PyYAML
+requests

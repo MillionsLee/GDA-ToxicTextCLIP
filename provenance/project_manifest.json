@@ -1,0 +1,954 @@
+{
+  "project": "GDA-ToxicTextCLIP",
+  "experiment_completed": "2026-11-01",
+  "files": {
+    ".gitignore": {
+      "sha256": "6a8b8ddf1526b92682e2c3b0646f07f5ea96a35f69594d0fa4315c6878b6c431",
+      "bytes": 131
+    },
+    "README.md": {
+      "sha256": "4483618b2902bb6e127aad70f9b6a34c88ac6a273ee774ce793053c6abf57d13",
+      "bytes": 4165
+    },
+    "THIRD_PARTY.md": {
+      "sha256": "f152d863875ebf5bb2b33192584fe41b5043900b765bd5f470b70aa352f2b858",
+      "bytes": 1274
+    },
+    "artifacts/experiment_20261101.zip": {
+      "sha256": "812f9ee29074c7189a8f3536ef0252dd6222ae39f57048878765e69c533e03fa",
+      "bytes": 12690126
+    },
+    "artifacts/reference_inputs.zip": {
+      "sha256": "dacf6b02bb67dff79a45ebd9ff780d80f2e921696b41d467744c7e9e4b3b1995",
+      "bytes": 9231491
+    },
+    "automatic_detail_method/README.md": {
+      "sha256": "3c9580b02d4ff879c39a6e0f10b5c0887458627f8dc258f30f65cd266b66e3e6",
+      "bytes": 458
+    },
+    "automatic_detail_method/__init__.py": {
+      "sha256": "0e0ed8af72d67f85c0ac1b7894029d4f132abe0ca40ede07d657f7b32ccadb50",
+      "bytes": 195
+    },
+    "automatic_detail_method/__main__.py": {
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "bytes": 30
+    },
+    "automatic_detail_method/backend.py": {
+      "sha256": "9c016b474d5f7deaed389dd3a21ca4e789a5f40f8029e43b5e20bf2e5e195d5c",
+      "bytes": 2669
+    },
+    "automatic_detail_method/check_gpu.py": {
+      "sha256": "8a7a1a6fcdf5cc8160b96ec30339d8deebc7051617784b7000370e8bdfbf68ed",
+      "bytes": 7142
+    },
+    "automatic_detail_method/check_native.py": {
+      "sha256": "710b2dd54d84f5eed56f24b232e11273360aca788346e764ee82f70d94f2c11a",
+      "bytes": 4402
+    },
+    "automatic_detail_method/cli.py": {
+      "sha256": "f5c936a9520a188ef32fa764d0ceb162237c5ac630b3718bb2f3310612761986",
+      "bytes": 14721
+    },
+    "automatic_detail_method/core.py": {
+      "sha256": "a916a0ce2f7b8f0991b9aede9f15c399545d227398e972b1a5ddf935b61dee66",
+      "bytes": 9751
+    },
+    "automatic_detail_method/experiment.py": {
+      "sha256": "6118ef0c388002722e054110ff59f7cbf2005491fbf7cd97918227c66af532d2",
+      "bytes": 15899
+    },
+    "automatic_detail_method/native.py": {
+      "sha256": "7e9d4d2f9065907110eab3b661b296e1c966c371d20ef770afe79d3e1b0b4901",
+      "bytes": 16052
+    },
+    "automatic_detail_method/pool.py": {
+      "sha256": "d09f5e6faa14e349c31e7a3a8d62de2a8446433e620a6bfeec9ce8181031f622",
+      "bytes": 1477
+    },
+    "automatic_detail_method/test_method.py": {
+      "sha256": "938c2b5cff1d5cf06aab6450ef02525fda4f6e5ba471a6a6bc74f4c5aeff7271",
+      "bytes": 4780
+    },
+    "configs/experiment_20261101.json": {
+      "sha256": "95af0a340cab02b5339d8969e809479e928b36c44b49fafcbdd4fd1460acaaf2",
+      "bytes": 3594
+    },
+    "docs/ASSETS.md": {
+      "sha256": "d01ac2faa431052de0ed2f0f074de86038b8eca9443c71ade678cc543b9a8efc",
+      "bytes": 1175
+    },
+    "docs/METHODS.md": {
+      "sha256": "9e79859d24feaa6148829601096de8dd224a665401cfbac017a46352f5a40125",
+      "bytes": 3399
+    },
+    "docs/REPRODUCE.md": {
+      "sha256": "eda0ef2e671f554cfaf709106e7fb49ac0f84515087ebf38961d79ffcad2bcac",
+      "bytes": 6729
+    },
+    "docs/RESULTS.md": {
+      "sha256": "28b407e0c856e3d8198a726895fcc775857cdbd15f747eb7ab49517507bfc5a7",
+      "bytes": 1439
+    },
+    "environment/pip-freeze-observed.txt": {
+      "sha256": "afc622b59896300ced2bab6270226e7615a5d0e155b99ccab92cb928b51ba372",
+      "bytes": 9229
+    },
+    "pipeline/evaluate_exact.py": {
+      "sha256": "60b622f27286492c0daae9c5ff638f66f95ba6a39e16b61fe4537fac387c3ded",
+      "bytes": 8812
+    },
+    "pipeline/finish_baseline_only.py": {
+      "sha256": "8d83bab7e62e64fe204aef2eb1d3d6b5ed0bb3a7829d72fa85033c56b4fe463b",
+      "bytes": 7799
+    },
+    "pipeline/gallery_content_audit.py": {
+      "sha256": "519fdb25d2e5a0cf1c1a99ddb215bc3f5e8fb68e23a451617f36421af0200edd",
+      "bytes": 2601
+    },
+    "pipeline/native_train.py": {
+      "sha256": "e1436827f089b93351780dfac3b41fdf4d733b74614d784597258abea90eec88",
+      "bytes": 9067
+    },
+    "pipeline/prepare_repeat.py": {
+      "sha256": "66c6a64b7245655b7e5ee828104e95451d46be3cc0bb7cb2fce5b550abc22ec1",
+      "bytes": 7840
+    },
+    "pipeline/probe_reference_selector.py": {
+      "sha256": "8140d8b41e5c1ed35ad4f9866bb1294c3762b744ba691a9e53beab624d47aaa2",
+      "bytes": 1836
+    },
+    "pipeline/reference_select.py": {
+      "sha256": "4a593670b89d2f15a765e337e86bbba083df7b5e2218708b602ae836dc7661f6",
+      "bytes": 4280
+    },
+    "pipeline/repeat_experiment.py": {
+      "sha256": "10ae359dec158237a26bb51a4af2e42b14dee54d186349bf68804850965833b4",
+      "bytes": 13261
+    },
+    "pipeline/resume_remaining_20261101.py": {
+      "sha256": "750927cb7bb707b6d982e6268c38542367c52f3cbffbbd5931c5976a330210de",
+      "bytes": 16480
+    },
+    "provenance/external_resources.json": {
+      "sha256": "92778471cd47f55502ba0ad0232a2823ac2b2c9f84aec973c97d797863ac93a9",
+      "bytes": 34429
+    },
+    "provenance/reference_selector_probe.json": {
+      "sha256": "96b2915b72d3ae4c0fb493730ef2eecd23ec889ede6bd17d195c5be80c58ca96",
+      "bytes": 52037
+    },
+    "provenance/repeat_plan_01.json": {
+      "sha256": "3019015f8570093264a3aa17db89af541b28f14be15297cd18c87afedaf520b3",
+      "bytes": 55367
+    },
+    "provenance/resume_remaining_request_20261101.json": {
+      "sha256": "4547696a0e4340324453ced3c24fa5c588dbc627b7171a826cef3517b634cd7b",
+      "bytes": 575
+    },
+    "provenance/source_map.json": {
+      "sha256": "16828bd12a9bcc93c836aba490e1966ddd292097728a10e6fb2b9cfdb8d0de63",
+      "bytes": 25258
+    },
+    "provenance/unit_check.log": {
+      "sha256": "274f6bac38cd9c543013527ca3004ec792d15edc09b5a81dc5a505bd86dbbc90",
+      "bytes": 106
+    },
+    "requirements.txt": {
+      "sha256": "3b88de9cb9f42f1f73e5e9f442618e072a84baf4fcdd24df83a2374d58fbb4e9",
+      "bytes": 518
+    },
+    "results/comparison.json": {
+      "sha256": "82df3dbcd773c7074031df5c783a9d09e51e6bd0109c77645a1232c0ea2db453",
+      "bytes": 17668
+    },
+    "results/dataset_audits.json": {
+      "sha256": "19ce68b48cf88dced258c7a0f142f40c559c77560f687a84682ae9ced1f13e14",
+      "bytes": 4227
+    },
+    "results/detail_extraction_status.json": {
+      "sha256": "48509963706b15829eab2a969a0ed77a44d1a281e5e1ecdd119541206c848310",
+      "bytes": 559
+    },
+    "results/metrics.csv": {
+      "sha256": "b6d5b0150f618c8358cb99098ca1d80db49ac17484bdf3f3f6e41cb8ef8b5479",
+      "bytes": 526
+    },
+    "results/original_report_20261101.md": {
+      "sha256": "c669d61fcf48870db368056a5cf3e8ad4285a6aedcb37d69e484ab39275ddc50",
+      "bytes": 996
+    },
+    "results/paired_training_audit.json": {
+      "sha256": "ae82d4e0d5846c851c75a30560efde9f0607ccde0aee1a2f0e04f4fc28c7b0e3",
+      "bytes": 18166
+    },
+    "results/realized_input_sha256.json": {
+      "sha256": "76ddd7e5aa62ed5fe1844c5ddcedcb04f2314ee21e1609db153d8e060e3d44de",
+      "bytes": 55709
+    },
+    "results/status.json": {
+      "sha256": "096550b4a644e44776996aa321d8ce3ff3a4e533d2ed659d18d6cbdc9a7c699b",
+      "bytes": 1027
+    },
+    "scripts/prepare_workspace.py": {
+      "sha256": "d0c260ee36e9c509aaf9eb7a715abce7bcce31a8e619a671f05ac08d332c95a4",
+      "bytes": 3578
+    },
+    "scripts/show_results.py": {
+      "sha256": "b14d1f65d72e13500b7a44a90ca02fa5ac1946a080358e6af5ae5b9ab35509e4",
+      "bytes": 669
+    },
+    "scripts/unpack_artifacts.py": {
+      "sha256": "88167da49d076693e676d15fee0914760eacad655c8dad8996bcc96860c4e823",
+      "bytes": 1666
+    },
+    "scripts/verify_project.py": {
+      "sha256": "976560289d415562f7243feea0a08f2d0c49504d94301c4e260da53efe55472c",
+      "bytes": 5578
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/__init__.py": {
+      "sha256": "3476b97670575fa76c8ba16cf68d7ea21749303c699183500456164b179c2cda",
+      "bytes": 59
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/evaluate/CA.py": {
+      "sha256": "86989bdea5fcc1ed5225537e3701395007824312ff7411b148fc043547e5bd69",
+      "bytes": 2458
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/evaluate/Perplexity.py": {
+      "sha256": "a1ce6e68a62b2e10bca4a165596c080ce69d4558199c1f1ea97ee9716fb7c8ac",
+      "bytes": 1222
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/evaluate/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/evaluate/distinct_n_grams.py": {
+      "sha256": "f20abac4bc525d6cd429cc52dcf6de5c3d3b6c650f6570b578a3b0edc14069a9",
+      "bytes": 1705
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/epochs_backdoor/6_papre_evaluate_elements.py": {
+      "sha256": "59ec6b1216c98ece7ff958c9125d7662a8e56c1bc5ea6ea10a3a62576f5c93cb",
+      "bytes": 3496
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/epochs_backdoor/8_evaluate.py": {
+      "sha256": "7726df72a294843bfeec3afc655f57678e225709e9049743713a07c50fc988c7",
+      "bytes": 2831
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/epochs_backdoor/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/2_get_text_for_generate.py": {
+      "sha256": "84371146389fb54a0cfd0dd8f9e151d0c3826c56473a0c4968e1196c1f866403",
+      "bytes": 1456
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/6_enhance_generate.py": {
+      "sha256": "8b0e925bc2c9ccf59a2858bf4b169a5f27ace48333a5e50f8e3fc1e0b420bbb8",
+      "bytes": 69
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/7_create_attack_csv.py": {
+      "sha256": "2c48b2fefbfb816920c1e33a862d97f8fcef01f5b03e8a0f47bc5f94a9d954c2",
+      "bytes": 2839
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/8_module_ablation_query_text_for_attack.py": {
+      "sha256": "60b58da108b662189bdd7a39f971437269b2327cee0b35d68dd663e30c7c2ec9",
+      "bytes": 1779
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/9_get_attack_csv.py": {
+      "sha256": "d203929246237166b95260cbbccecdecc218988b3ee42d46034dfdeb3c137a5a",
+      "bytes": 2680
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/word_level/8_module_ablation_query_text_for_attack.py": {
+      "sha256": "4592e320249adaa5b4e6b19f51a1466fbfee7343f4e5aab43811c663d17f5086",
+      "bytes": 1794
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/word_level/9_get_attack_csv.py": {
+      "sha256": "28def130164b6040e2183e6a913d7c351e176b60691dba7f82859e55aa92e784",
+      "bytes": 2748
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/ablation_exp/module_ablation/no_select_only_generate/word_level/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/1_extract_images_by_category.py": {
+      "sha256": "12ad77863c15b71c0eaefb230c7d09885127a0476b865d725775cd6ddf5c077a",
+      "bytes": 2465
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/2_create_filter_images_csv.py": {
+      "sha256": "96e8a5d579815f895dcc1e3c06a2dd885c4f0edec0723083c6b91b6ae316abb9",
+      "bytes": 1967
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/3_create_attack_csv.py": {
+      "sha256": "51b78c10cd2c7ff709f105d92af76927058fe1e415563c8c66695f30179ffdda",
+      "bytes": 3133
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/4_papre_evaluate_elements.py": {
+      "sha256": "6547e2eb169f5a4853c40847157886ef245f598b7f82f1bea5ce926d4cfb0f94",
+      "bytes": 3485
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/5_prepare_search_texts.py": {
+      "sha256": "6e1e649c2e8d9d1f06bfab39ecc17066d59db11bbefe9d43321e50502eac205a",
+      "bytes": 1161
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/6_evaluate.py": {
+      "sha256": "b45d13a4e445f254932c7fa2ddb7252cf2bfbbd3c71cad7ed41a4157f06844ec",
+      "bytes": 2975
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/1_get_text_for_generate.py": {
+      "sha256": "f66ba6145f1cfd1427af5e5361de76f2fd1e111474cb160cde070432ae4abe10",
+      "bytes": 1480
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/2_create_database.py": {
+      "sha256": "36d17b02c769c18058e139ac993b6dcb01b0611daf6c922f9fc21b13512d8d19",
+      "bytes": 2268
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/3_prepare_category_embedding.py": {
+      "sha256": "6a9f724f7e6d8cdcb01b6f2cf5ce708467f7cd2caf0dd905656fb3e69cca4b28",
+      "bytes": 1432
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/4_query_text_for_generate.py": {
+      "sha256": "f6c3be70aae280ec3dd2a9c98d09ee07f3a855da716c8b5df0b24dec4c7a50fa",
+      "bytes": 1806
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/5_enhance_generate.py": {
+      "sha256": "8b0e925bc2c9ccf59a2858bf4b169a5f27ace48333a5e50f8e3fc1e0b420bbb8",
+      "bytes": 69
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/6_create_attack_csv.py": {
+      "sha256": "06c0d7257427b9d221d7a45e85514ff59ac9e488aec558d42dc8ba87907a9d42",
+      "bytes": 2702
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/7_module_ablation_query_text_for_attack.py": {
+      "sha256": "8a01895dc8db63f79ef3b1bd0bd01f5a913dd763dff9f8ae993658c11f751764",
+      "bytes": 1883
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/7_query_text_for_attack.py": {
+      "sha256": "c79fbc4fb1a01c2128a4f695b86f03c955114d279647a9188b6a67acd0bb6201",
+      "bytes": 1969
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/8_get_attack_csv.py": {
+      "sha256": "a835255dbba5382bd5ce68098c958c3739929f0eb4593001f91b4414675f295a",
+      "bytes": 2614
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/verify_image_search/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/wordlevel_ours/6_create_attack_csv.py": {
+      "sha256": "3ecc09e59878099ce35e86b16a6635d3bc31e8b301e918a3ba0ed93b83c8cab1",
+      "bytes": 2840
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/wordlevel_ours/7_query_text_for_attack.py": {
+      "sha256": "5a898b3ef3b69ebfb3704257b44fe6178c780e0a698bdcc3853d62d4a2146890",
+      "bytes": 1847
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/wordlevel_ours/8_get_attack_csv.py": {
+      "sha256": "91f45e158d50a18c42dd7f0c174b54a1bf935b2ef172ea51e780988c1cf0c0c7",
+      "bytes": 2610
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/attack3/wordlevel_ours/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/1_get_top_data_from_clean_database.py": {
+      "sha256": "46eaddd680f0f99847ee8976f4b241f0347ff2e4f314a9292b4f39699790c07c",
+      "bytes": 6206
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/2_generate_samples_by_dbs.py": {
+      "sha256": "8b0e925bc2c9ccf59a2858bf4b169a5f27ace48333a5e50f8e3fc1e0b420bbb8",
+      "bytes": 69
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/3_extract_data_only_mask_category_for_dbsgenerate_text.py": {
+      "sha256": "284edc233651b9dfe709efaa98ab517bb29c4b9213cd0094d923449e3e522a3a",
+      "bytes": 79
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/4_load_generate_data2base.py": {
+      "sha256": "83370df9e02a1fe691b62a3ed38b8347a296c2764277516993720a5db7ad18e0",
+      "bytes": 2694
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/5_get_poidata.py": {
+      "sha256": "37c1835583f4dbcd85d8ce8f05b620e18a89c0318943e7165ad34a1d5c478d8c",
+      "bytes": 6309
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/6_poi_evaluate_100w_dbs.py": {
+      "sha256": "f3804e242114239fc775f8b330062f8e3dd7818d0ba28f6c09aa567b0a554f48",
+      "bytes": 20767
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/bckinfo_use_dbs_trained_on_1M/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/3_process_csv_file.py": {
+      "sha256": "8484f9bfa9f123b40a50b0482304eeea65406cb1a162f667fdfd20c83f9dae0c",
+      "bytes": 1881
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/4_load_bckinfo_data2base.py": {
+      "sha256": "a6dc056e5ebabab397c6f4eec02d1318c178a58b8669eded750d6aedbfb03fdb",
+      "bytes": 2747
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/5_get_data_from_base.py": {
+      "sha256": "80b784cc3600108062b631080c0f9a02c06c7d84da3b29ecef62457389992223",
+      "bytes": 6317
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/5_random_select_get_data.py": {
+      "sha256": "f57c22653ff76c41741af46f3dfa0cc424597591eca04bbc1a07eebe52f581d2",
+      "bytes": 1225
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/6_evaluate_1M.py": {
+      "sha256": "d10da96f201f3685eedda0db52191a9116c17cea1c43c3709f4e97b068b287a7",
+      "bytes": 20781
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/_1_get_top_data_from_clean_base.py": {
+      "sha256": "0ea5f473f950b52a98c333409732a30adeaacd5b4ca59378d8bcd9b60a3c97c6",
+      "bytes": 6181
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/_2_generate_samples_by_dbs.py": {
+      "sha256": "8b0e925bc2c9ccf59a2858bf4b169a5f27ace48333a5e50f8e3fc1e0b420bbb8",
+      "bytes": 69
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/_3_extract_data_only_mask_category_for_dbsgenerate_text.py": {
+      "sha256": "284edc233651b9dfe709efaa98ab517bb29c4b9213cd0094d923449e3e522a3a",
+      "bytes": 79
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/_4_load_generate_data2base.py": {
+      "sha256": "9b0e5874fcce3e0c0d31eb84e2b7b8e4a5f727190914378aec8fe521c855b986",
+      "bytes": 2700
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/_5_get_data.py": {
+      "sha256": "4ec92fd233379c825dd7c5de23f8eaed62e0b3c6119acb207481b96b7c95cdb1",
+      "bytes": 6427
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/exp_in_corpus/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/get_img_from_cc12m.py": {
+      "sha256": "df205ea0e06a06fb0be54ff6a4d6ba40e796f96ce370b0716bde3ba1cf84338a",
+      "bytes": 1045
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/validation_experiment/1_count_keyword_occurrences.py": {
+      "sha256": "3ef055d710be5cf5971200bdd68666e86ff1c9ce54b14a2e36c6a9e27340d0d4",
+      "bytes": 18954
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/validation_experiment/2_embedding_similarity_change.py": {
+      "sha256": "99721024a0aae07571d261c3881059585eca6c3476710f1878be6200e9a5a3ee",
+      "bytes": 22472
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/validation_experiment/3_bckinfo_distribution.py": {
+      "sha256": "fcc6ed3e0b465ddd46f42b3228f1dc44666fe0581c3ec6e3e789d0d821370a5c",
+      "bytes": 21095
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/validation_experiment/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/yfcc/5_get_data_from_base.py": {
+      "sha256": "b535e64bcbc698fb3e26b59f83712b40c73eacad588a8ce78c4b64cdb960de83",
+      "bytes": 7080
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/yfcc/6_evaluate_1M.py": {
+      "sha256": "cde96c00ff15e88a7a17244a8eaad6d87e22c29082f8082b07abad3961b69a6d",
+      "bytes": 20870
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/yfcc/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/experiment/yfcc/sample_data.py": {
+      "sha256": "0f00d48a1d284c4d7acd1d025b44c1cf069699423bcbbcea2b08d17190f54e64",
+      "bytes": 473
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/database_code/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/database_code/database_operations.py": {
+      "sha256": "27c4e4dcda2d1dc114dd48282b5b7e14ae01ce98545e38fb0b8ad5df181bd6e1",
+      "bytes": 5685
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/database_code/evaluate_backdoor.py": {
+      "sha256": "5fd49c117947a9c81f46f87e29ba4266130aa34e8b95ffc17c4c3d67e07e2264",
+      "bytes": 3803
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/database_code/load_data2base.py": {
+      "sha256": "09a22edf1b27c5c247b34152b3b60419f02bf42db151938a0a3e47b4dc8e43b4",
+      "bytes": 3163
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/process_SBU2csv.py": {
+      "sha256": "4ee03543ffade79db5a569afb00bea3e03dd4ab3db1d1c469ba7e6dd6fb2f9c9",
+      "bytes": 1350
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/process_coco2csv.py": {
+      "sha256": "f054ff772e0783d2d6e593d3f46ea003676f3009832b70e3722980b81992253d",
+      "bytes": 1799
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/process_parquetfile.py": {
+      "sha256": "34d3c741cf70ab726b6603e2c1126998dd16c79287fb9006cd75f806b163ce23",
+      "bytes": 2273
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/process_webdataset2csvdata.py": {
+      "sha256": "652d24a69da009cdb94f9c34335a6fabb960ba21bab2ff094f0d911b567373e3",
+      "bytes": 4133
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/process_yfcc15m.py": {
+      "sha256": "4dd6677acbbb428e904e9b2973c293ad27af129185a07c82ac95a78652e5f403",
+      "bytes": 1656
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/sample_data.py": {
+      "sha256": "a2b6ce7af0d5a042965ad007fc31cf1700327da1932f9d7d384ecda6cc4f124f",
+      "bytes": 388
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/mycode/task_code/yfcc15m.ipynb": {
+      "sha256": "d57dee22bf19eb7335525bdb087b03e063d4d07fd13b00725b1f551ae2ce7673",
+      "bytes": 7591
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/bpe_simple_vocab_16e6.txt.gz": {
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/clip.py": {
+      "sha256": "b599b592075cf75b8ce102281cb73a9d9c50207ca32373e6237b210990ff2ce9",
+      "bytes": 4216
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/model.py": {
+      "sha256": "20fd6da5ea5e6f8466d5fb54fbffd840dfdcb0b6d8986c173c57b62490ece5e5",
+      "bytes": 17433
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/tokenizer.py": {
+      "sha256": "bdfe2b34f6042f1d5ad4f5b3e72ed30eb1c8088573128bee97726e80aad50662",
+      "bytes": 4919
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pltUtils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pltUtils/t_SNE_new.py": {
+      "sha256": "cc0ebd847a81c3dbab53d803eca66d0ba4e1313ef18b0ceb139d175fe3c1284c",
+      "bytes": 2197
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/data.py": {
+      "sha256": "fb08f4dc6fd73b20a79bb939e3de1f245d82eb56385ea01a049c86a85235e711",
+      "bytes": 3919
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/evaluate.py": {
+      "sha256": "c83c77349fe106ea20ac606ad17ebebe445244c25ac33b0ab48c8f9b32eede48",
+      "bytes": 4399
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/logger.py": {
+      "sha256": "fbccb6a27f691f63409f8d039d3bae4fe1ea428ce1683dd2b7ee2ca1b55a15c5",
+      "bytes": 1311
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/main.py": {
+      "sha256": "dab6478f764f316d6b5d3d72432cecbab9c208d831cd20b9936319b6f6f16ee4",
+      "bytes": 7285
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/memory_bank.py": {
+      "sha256": "b619e53156b32c85a658684d33e463d4104de4be31c19ff1b057491b38412f59",
+      "bytes": 2092
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/parser.py": {
+      "sha256": "ae828e6f30fc9920e2a911663e0f47043bc5bb9e9b8a2608ec1e662f4c83ab76",
+      "bytes": 5014
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/scheduler.py": {
+      "sha256": "1d25629052298779e4ffb0eb1e84b7ccc4db65c8a5d11dba4675fe3fdc221065",
+      "bytes": 517
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/train.py": {
+      "sha256": "6fedbc2900b9d4a38e5b1b01bf052311af3e440095eda821464a496b33616d28",
+      "bytes": 6075
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/utils/augment_image.py": {
+      "sha256": "a361599f9e0cf9ae6b00ad2187ffe31ed19663ec123533599eafcd3ec6ebb475",
+      "bytes": 2730
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/utils/augment_text.py": {
+      "sha256": "e7f14c761de71543c47515c0d0aa22c5b42e7edda49bab6b8bcbd9f95f5a04b2",
+      "bytes": 1260
+    },
+    "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/utils/eda.py": {
+      "sha256": "3678359720bbf2df9e639b0fbafd4783b6406a00b9e40ba04c7c740084acedf6",
+      "bytes": 6853
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/__init__.py": {
+      "sha256": "18a87ae86b91301952a3c4f855c6592a7be4b95b70ed4ac8cd02fb433e4f950f",
+      "bytes": 19
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/bpe_simple_vocab_16e6.txt.gz": {
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/clip.py": {
+      "sha256": "3a29bc1837acdfbe554ccc46d720f1c11775b1d7ed9ebf568f38f90dd4106789",
+      "bytes": 9913
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/model.py": {
+      "sha256": "d3faca43089fb26edacc9ad6d6cddf2bb8e947649f21488491cdc8056c0cd6a6",
+      "bytes": 17374
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/simple_tokenizer.py": {
+      "sha256": "e0f5830b4c969099e64212f8058746559ccd14b9df9b3ceaa3993c5bb4c554ff",
+      "bytes": 4631
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/environment.txt": {
+      "sha256": "a478af81e1d102e4017bd65a593470bf4dda7095c0cfead1974af03e093c6e92",
+      "bytes": 132
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/attack3/7_enhance_generation_oridata_prefix.py": {
+      "sha256": "1c6fc3b8a2ce10ecca4aadccd09ff89db1aef37d00cd2a00977e5c9d07c3b6f0",
+      "bytes": 13803
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/attack3/_1z[supplement]_save_vector_by_texts.py": {
+      "sha256": "51caa62856845e494bc33f270e8166757b1e9678723db4180688231ab8e95fff",
+      "bytes": 3038
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/attack3/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/bckinfo_use_dbs/2_generate_samples_by_dbs.py": {
+      "sha256": "61a9a0f090cd1cd5b5b42bdc70c78585f8dafa138a4b694d17d73184de324e3a",
+      "bytes": 17313
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/bckinfo_use_dbs/3_extract_data_only_mask_category_for_dbsgenerate_text.py": {
+      "sha256": "bb141350299bcbfd66f7a9b3d38683504fd4f0591b609014e1b3c6b840b1e80b",
+      "bytes": 2390
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/bckinfo_use_dbs/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/bckinfo_use_dbs_trained_on_1M/2_generate_dbs_select_strategy_improve.py": {
+      "sha256": "c8a5a1306d5c7bcbd3267980e14dfb57be01bf1be3275a08527607621c884304",
+      "bytes": 16542
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/bckinfo_use_dbs_trained_on_1M/3_extract_data_for_dbs_select_improve.py": {
+      "sha256": "7fa1bdc9517f110ea0bdf0439299c4465f07d7928544367e6da7f02947b0a423",
+      "bytes": 2372
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/bckinfo_use_dbs_trained_on_1M/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/our_exp/2_generate_dbs_select_strategy_improve_change_ajustparam_prefix.py": {
+      "sha256": "089f4f33ebcf2a062eb21f635e2ccab56d3b1e6197ec577863111712d6dc38f8",
+      "bytes": 17028
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/our_exp/3_extract_data_only_mask_category_for_dbsgenerate_text.py": {
+      "sha256": "339b945577996df0dde1a35d798f5b5743cd4555c939e9e0f66cebf102cf2861",
+      "bytes": 2465
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/our_exp/_1z[supplement]_save_vector.py": {
+      "sha256": "a9ccfc215d4ec6e49a2e4f0d4e562c5ebef8f4d6edf3fba431f30429581fa862",
+      "bytes": 5770
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/our_exp/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/__init__.py": {
+      "sha256": "b623ea710fe937f458c3281c8b4840c77d6cd9e2e1d31535990e03573721f2f3",
+      "bytes": 22
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/decode_model.py": {
+      "sha256": "947808660215c58305814f4bbb2dd9d0752572044897537628528591a4a8c18d",
+      "bytes": 20099
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/model_decode_use_image_as_context.py": {
+      "sha256": "f229de55f49963bcc2b78dc0e15276fd80b2e778ea981751f8f90f59d0bdef25",
+      "bytes": 5218
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/modify_model_module.py": {
+      "sha256": "b6a5ec032e58a03b7c06129a621253cab8dc5ec6c87157b266c2b31fdcb5721f",
+      "bytes": 3765
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/mymodel.py": {
+      "sha256": "7558465f497ea361a066b269adfb195b78828010d3a1d82eb34771dffed584ed",
+      "bytes": 573
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/src/parser.py": {
+      "sha256": "ee5f03d6edde849da0344078be1eac3ba6f32d72fae1affd901e44641a631a71",
+      "bytes": 4864
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/constants.py": {
+      "sha256": "2c8ba61fd444ffc8ee9740ebbee9dbeee64075dba1e88db8c5b7587d210094a6",
+      "bytes": 909
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/data_utils.py": {
+      "sha256": "7b1294de92bf89beb5ffb4057cb498d78efdc7c25edf4e2d217e03a7f698e87f",
+      "bytes": 17244
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/decoding_utils.py": {
+      "sha256": "98e7d008b66ab6673cc8fce50d377652ddace08c47043bd51803f8787ed56b58",
+      "bytes": 45069
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/decoding_utils_of_dbs.py": {
+      "sha256": "587ad8b9c1a065f48ba362133f38c51e37da92c110e0e3ee1679d6214de18503",
+      "bytes": 40988
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/optimizers_and_distributions.py": {
+      "sha256": "2ef4bbafa5d7e394c8476b3358e69eeac85946d893a449a6ffb0bca43fc51946",
+      "bytes": 3047
+    },
+    "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/utils.py": {
+      "sha256": "c83cf62148fe630888db45e598fed19c43943ef3618cba6ca004bb700b583dcb",
+      "bytes": 4085
+    },
+    "vendor/toxictextclip/README.md": {
+      "sha256": "e00ceb6b15afa9805b0695fe41862ceccf2b70eb259a2144689b61e7ebd21240",
+      "bytes": 4126
+    },
+    "vendor/toxictextclip/main.py": {
+      "sha256": "1066373715111e39386ece850fbe2e240ca0dc51ab34a6459a96140e12930644",
+      "bytes": 13703
+    },
+    "vendor/toxictextclip/models/__init__.py": {
+      "sha256": "b623ea710fe937f458c3281c8b4840c77d6cd9e2e1d31535990e03573721f2f3",
+      "bytes": 22
+    },
+    "vendor/toxictextclip/models/decode_model.py": {
+      "sha256": "28bc74254baa6bfddec4121bbd3d4e246b24cfd33ced192efe856948ee1caaa7",
+      "bytes": 22227
+    },
+    "vendor/toxictextclip/models/model_decode_use_image_as_context.py": {
+      "sha256": "f128a8e5f248c08395e2d8b0040a8fe8263d9d4d1fc6a27417a62703d752a07d",
+      "bytes": 5545
+    },
+    "vendor/toxictextclip/models/modify_model_module.py": {
+      "sha256": "7bed870c779ca61b2f6af62752ef9e0016a14ca18aab0ff1d2dc6dc8a6561ac9",
+      "bytes": 4132
+    },
+    "vendor/toxictextclip/models/mymodel.py": {
+      "sha256": "7558465f497ea361a066b269adfb195b78828010d3a1d82eb34771dffed584ed",
+      "bytes": 573
+    },
+    "vendor/toxictextclip/pkgs/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/pkgs/clip/__init__.py": {
+      "sha256": "18a87ae86b91301952a3c4f855c6592a7be4b95b70ed4ac8cd02fb433e4f950f",
+      "bytes": 19
+    },
+    "vendor/toxictextclip/pkgs/clip/bpe_simple_vocab_16e6.txt.gz": {
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917
+    },
+    "vendor/toxictextclip/pkgs/clip/clip.py": {
+      "sha256": "dcfea7be0d85dda4d56fb4fe30df3238ab13f6798b21ef27561e7fc87579c226",
+      "bytes": 11767
+    },
+    "vendor/toxictextclip/pkgs/clip/model.py": {
+      "sha256": "f5620be164743ab8007bc8475b34b0d7ee9bb75b822fe8ceed5be446b49beb1f",
+      "bytes": 19997
+    },
+    "vendor/toxictextclip/pkgs/clip/simple_tokenizer.py": {
+      "sha256": "e0f5830b4c969099e64212f8058746559ccd14b9df9b3ceaa3993c5bb4c554ff",
+      "bytes": 4631
+    },
+    "vendor/toxictextclip/pkgs/milvustool/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/pkgs/milvustool/database_operations.py": {
+      "sha256": "7eb67aa950cb3b29a0a9720e67b2d7e32535457e30768d50036138d51604112b",
+      "bytes": 5484
+    },
+    "vendor/toxictextclip/pkgs/openai/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/pkgs/openai/bpe_simple_vocab_16e6.txt.gz": {
+      "sha256": "924691ac288e54409236115652ad4aa250f48203de50a9e4722a6ecd48d6804a",
+      "bytes": 1356917
+    },
+    "vendor/toxictextclip/pkgs/openai/clip.py": {
+      "sha256": "b599b592075cf75b8ce102281cb73a9d9c50207ca32373e6237b210990ff2ce9",
+      "bytes": 4216
+    },
+    "vendor/toxictextclip/pkgs/openai/model.py": {
+      "sha256": "0c2569c59571775d52fe272418b597a7bd7f4431fe615b18c72286a9456a4764",
+      "bytes": 17411
+    },
+    "vendor/toxictextclip/pkgs/openai/tokenizer.py": {
+      "sha256": "bdfe2b34f6042f1d5ad4f5b3e72ed30eb1c8088573128bee97726e80aad50662",
+      "bytes": 4919
+    },
+    "vendor/toxictextclip/src/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/src/parser.py": {
+      "sha256": "3c7186ecc1c0ac64f547fbd96b93879eef47c0b32dee17c2772ed03c3309af2f",
+      "bytes": 4905
+    },
+    "vendor/toxictextclip/train_scripts/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/train_scripts/multi_gpus_train.py": {
+      "sha256": "29799fdbfc5df7f0a19f81764b957422fc3b8d9a947695def0f42b392443c53e",
+      "bytes": 13446
+    },
+    "vendor/toxictextclip/utils/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "vendor/toxictextclip/utils/constants.py": {
+      "sha256": "cdca6e01f9f82f28d5ba249ef40e9f4ea5785828b221ec7631f0d1514aa04a8e",
+      "bytes": 467
+    },
+    "vendor/toxictextclip/utils/data_utils.py": {
+      "sha256": "d1acb4b0269bedcda18e63bab6510330816f0e5e2a8e8567a330ed5686ac29eb",
+      "bytes": 16908
+    },
+    "vendor/toxictextclip/utils/optimizers_and_distributions.py": {
+      "sha256": "2ef4bbafa5d7e394c8476b3358e69eeac85946d893a449a6ffb0bca43fc51946",
+      "bytes": 3047
+    },
+    "vendor/toxictextclip/utils/utils.py": {
+      "sha256": "41ffdc5e0a5266743bc07688aec39f10449650a75b54d9539fb69f9c9d2fd7b4",
+      "bytes": 1162
+    },
+    "vendor/toxictextclip/wbd_data/eval/eval_ca_epoch4.py": {
+      "sha256": "a58091fa7eb2ff2a13ed09a1449ce5555890cec6f01a8f0690f98e8204cd392b",
+      "bytes": 4448
+    },
+    "vendor/toxictextclip/wbd_data/eval/eval_wbd_epoch4.py": {
+      "sha256": "a3dbae0c44fb8b606436687c48a98df46d3a41c6224f5a832cca4d136d43b89a",
+      "bytes": 9665
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/evaluate_exact.py": {
+      "sha256": "60b622f27286492c0daae9c5ff638f66f95ba6a39e16b61fe4537fac387c3ded",
+      "bytes": 8812
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/gallery_content_audit.py": {
+      "sha256": "519fdb25d2e5a0cf1c1a99ddb215bc3f5e8fb68e23a451617f36421af0200edd",
+      "bytes": 2601
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/image_evidence.py": {
+      "sha256": "a0fa64644456a0397e5d01c76d9dca09680580b8276b5801ab9037e673284123",
+      "bytes": 4708
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/native_train.py": {
+      "sha256": "e1436827f089b93351780dfac3b41fdf4d733b74614d784597258abea90eec88",
+      "bytes": 9067
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/__init__.py": {
+      "sha256": "0e0ed8af72d67f85c0ac1b7894029d4f132abe0ca40ede07d657f7b32ccadb50",
+      "bytes": 195
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/__main__.py": {
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "bytes": 30
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/backend.py": {
+      "sha256": "9c016b474d5f7deaed389dd3a21ca4e789a5f40f8029e43b5e20bf2e5e195d5c",
+      "bytes": 2669
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/check_gpu.py": {
+      "sha256": "8a7a1a6fcdf5cc8160b96ec30339d8deebc7051617784b7000370e8bdfbf68ed",
+      "bytes": 7142
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/check_native.py": {
+      "sha256": "710b2dd54d84f5eed56f24b232e11273360aca788346e764ee82f70d94f2c11a",
+      "bytes": 4402
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/cli.py": {
+      "sha256": "d049366bde11750c484fc669c634754f385cb8da7761cc58e57dd04fa7598341",
+      "bytes": 14622
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/core.py": {
+      "sha256": "a916a0ce2f7b8f0991b9aede9f15c399545d227398e972b1a5ddf935b61dee66",
+      "bytes": 9751
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/experiment.py": {
+      "sha256": "6118ef0c388002722e054110ff59f7cbf2005491fbf7cd97918227c66af532d2",
+      "bytes": 15899
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/native.py": {
+      "sha256": "2e3613866ed3619fd9d292bc32497f5bb9aa8345e5d8e7d20fa06979694bdbfa",
+      "bytes": 15238
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/pool.py": {
+      "sha256": "d09f5e6faa14e349c31e7a3a8d62de2a8446433e620a6bfeec9ce8181031f622",
+      "bytes": 1477
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/test_method.py": {
+      "sha256": "938c2b5cff1d5cf06aab6450ef02525fda4f6e5ba471a6a6bc74f4c5aeff7271",
+      "bytes": 4780
+    },
+    "vendor/toxictextclip/wbd_data/iteration_20261027/prepare_automatic_plan.py": {
+      "sha256": "783a2fd1738cb737653a98f38aff43b68544f3c49f096775a0f91468b8032355",
+      "bytes": 5507
+    },
+    "vendor/toxictextclip/wbd_data/nonboat20/run_decoder_200.py": {
+      "sha256": "a014c01055153f7bb5c9c78afe5e1d7aaf6e2dc017313b3829f89db0aa5bcf3b",
+      "bytes": 7531
+    },
+    "vendor/toxictextclip/wbd_data/victim/run_victim.py": {
+      "sha256": "ae4fa6c530d96fca2f4ac3feb64bad42f4a1f0edf67c5d0d5543b0ea17f29541",
+      "bytes": 2158
+    }
+  }
+}

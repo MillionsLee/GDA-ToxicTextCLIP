@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+.venv/
+unpacked/
+workspace/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+.ipynb_checkpoints/

@@ -1,0 +1,1166 @@
+{
+  "rule": "full caption class cosine; no detail or grounding gate",
+  "total_overlap": 100,
+  "by_class": {
+    "apple": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000074693.jpg",
+          "caption": "very high quality product image : a group of apples were available ! ",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056896.jpg",
+          "caption": "A brand new kind of apple",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000088437.jpg",
+          "caption": "An Apple's Life (Watch It Grow)",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000106907.jpg",
+          "caption": "high quality computer image of apples . ",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000043540.jpg",
+          "caption": "Remember when Healthy Eating was as Simple as 'An Apple a Day'?",
+          "category": "apple"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000074693.jpg",
+          "caption": "very high quality product image : a group of apples were available ! ",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056896.jpg",
+          "caption": "A brand new kind of apple",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000088437.jpg",
+          "caption": "An Apple's Life (Watch It Grow)",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000106907.jpg",
+          "caption": "high quality computer image of apples . ",
+          "category": "apple"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000043540.jpg",
+          "caption": "Remember when Healthy Eating was as Simple as 'An Apple a Day'?",
+          "category": "apple"
+        }
+      ]
+    },
+    "bear": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000105323.jpg",
+          "caption": "so cute bears with 200 x 110 for sale or if you need to buy a large number of bears ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000031968.jpg",
+          "caption": "size : this is the image of a bears and a large number of funny bears . ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0019_000109306.jpg",
+          "caption": "teddy bears : this is a graphic design that has been will be made at home clothing 200 x 140 ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000009361.jpg",
+          "caption": "view an image titled 't he real bears ' 2 ' ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000078816.jpg",
+          "caption": "royalty - free ( new ) picture of 't he bear and the bear ) ",
+          "category": "bear"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000105323.jpg",
+          "caption": "so cute bears with 200 x 110 for sale or if you need to buy a large number of bears ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000031968.jpg",
+          "caption": "size : this is the image of a bears and a large number of funny bears . ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0019_000109306.jpg",
+          "caption": "teddy bears : this is a graphic design that has been will be made at home clothing 200 x 140 ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000009361.jpg",
+          "caption": "view an image titled 't he real bears ' 2 ' ",
+          "category": "bear"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000078816.jpg",
+          "caption": "royalty - free ( new ) picture of 't he bear and the bear ) ",
+          "category": "bear"
+        }
+      ]
+    },
+    "bed": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0011_000065918.jpg",
+          "caption": "A bed or beds in a room at Perfect Guest House",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000099679.jpg",
+          "caption": "A bed or beds in a room at Hotel V",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000013176.jpg",
+          "caption": "A bed or beds in a room at TES hotel",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000001988.jpg",
+          "caption": "A bed or beds in a room at Budget Host Inn",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000029812.jpg",
+          "caption": "A bed or beds in a room at Hotel Prati",
+          "category": "bed"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0011_000065918.jpg",
+          "caption": "A bed or beds in a room at Perfect Guest House",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000099679.jpg",
+          "caption": "A bed or beds in a room at Hotel V",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000013176.jpg",
+          "caption": "A bed or beds in a room at TES hotel",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000001988.jpg",
+          "caption": "A bed or beds in a room at Budget Host Inn",
+          "category": "bed"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000029812.jpg",
+          "caption": "A bed or beds in a room at Hotel Prati",
+          "category": "bed"
+        }
+      ]
+    },
+    "bird": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056404.jpg",
+          "caption": "Birds A bird is a warm-blooded animal with a backbone.",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000031191.jpg",
+          "caption": "free print of one of the birds ",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000080325.jpg",
+          "caption": "400 x 1220 for your design of a beautiful birds in front of the home ",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000106572.jpg",
+          "caption": "bird - and what is the name of bird ? it looks like a bird with a small bird , it would look like if you think about it ! ",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000048052.jpg",
+          "caption": "< person >' s in the birds 200 x 110 file picture ",
+          "category": "bird"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056404.jpg",
+          "caption": "Birds A bird is a warm-blooded animal with a backbone.",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000031191.jpg",
+          "caption": "free print of one of the birds ",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000080325.jpg",
+          "caption": "400 x 1220 for your design of a beautiful birds in front of the home ",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000106572.jpg",
+          "caption": "bird - and what is the name of bird ? it looks like a bird with a small bird , it would look like if you think about it ! ",
+          "category": "bird"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000048052.jpg",
+          "caption": "< person >' s in the birds 200 x 110 file picture ",
+          "category": "bird"
+        }
+      ]
+    },
+    "book": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000086660.jpg",
+          "caption": "how do you know about books ? look at this one ? ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000041742.jpg",
+          "caption": "all you need to learn how to make books for reading ! ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000089329.jpg",
+          "caption": "back to school , reading book , all things that were in one of my favourite book ? ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000081215.jpg",
+          "caption": "collection of books designed by author . ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000086660.jpg",
+          "caption": "books - it looks like ! all the writing you 've ever built ",
+          "category": "book"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000086660.jpg",
+          "caption": "how do you know about books ? look at this one ? ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000041742.jpg",
+          "caption": "all you need to learn how to make books for reading ! ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000089329.jpg",
+          "caption": "back to school , reading book , all things that were in one of my favourite book ? ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000081215.jpg",
+          "caption": "collection of books designed by author . ",
+          "category": "book"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000086660.jpg",
+          "caption": "books - it looks like ! all the writing you 've ever built ",
+          "category": "book"
+        }
+      ]
+    },
+    "bottle": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000092154.jpg",
+          "caption": "real world bottles isolated at back on a product picture ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000092154.jpg",
+          "caption": "alternate view of brand bottles made out of glass , no people 's products ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000094944.jpg",
+          "caption": "products you can be found in this picture , brand new bottles made of plastic bottles with copy space ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000107225.jpg",
+          "caption": "< person >' s hand - drawn product image isolated on the theme of bottles ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000075063.jpg",
+          "caption": "Europe Similar to the U.S.' 20oz bottle, Europe typically sells smaller Half- Liter plastic bottles.",
+          "category": "bottle"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000092154.jpg",
+          "caption": "real world bottles isolated at back on a product picture ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000092154.jpg",
+          "caption": "alternate view of brand bottles made out of glass , no people 's products ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000094944.jpg",
+          "caption": "products you can be found in this picture , brand new bottles made of plastic bottles with copy space ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000107225.jpg",
+          "caption": "< person >' s hand - drawn product image isolated on the theme of bottles ",
+          "category": "bottle"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000075063.jpg",
+          "caption": "Europe Similar to the U.S.' 20oz bottle, Europe typically sells smaller Half- Liter plastic bottles.",
+          "category": "bottle"
+        }
+      ]
+    },
+    "bowl": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0012_000071948.jpg",
+          "caption": "Gourmet salad in a bowl",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000076697.jpg",
+          "caption": "Unmixed chopped ingredients in a bowl.",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000041945.jpg",
+          "caption": "Put the ingredients in a bowl",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000103486.jpg",
+          "caption": "Different foods in small bowls on a table",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0003_000019244.jpg",
+          "caption": "Throw all the ingredients into the bowl",
+          "category": "bowl"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0012_000071948.jpg",
+          "caption": "Gourmet salad in a bowl",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000076697.jpg",
+          "caption": "Unmixed chopped ingredients in a bowl.",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000041945.jpg",
+          "caption": "Put the ingredients in a bowl",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0018_000103486.jpg",
+          "caption": "Different foods in small bowls on a table",
+          "category": "bowl"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0003_000019244.jpg",
+          "caption": "Throw all the ingredients into the bowl",
+          "category": "bowl"
+        }
+      ]
+    },
+    "cake": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000053462.jpg",
+          "caption": "Pretty little cake from a birthday celeb",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000033529.jpg",
+          "caption": "Ideas For Decorating A Birthday Cake - Cake Ideas",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0006_000038030.jpg",
+          "caption": "real time - high quality view of the cake , as well as a birthday sheet ",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000091544.jpg",
+          "caption": "Cake for a teenage Artist",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000091544.jpg",
+          "caption": "-- the cake that looks like you can use in real - 300 - this is an example of a cake - the concept is made out of cake type ",
+          "category": "cake"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000053462.jpg",
+          "caption": "Pretty little cake from a birthday celeb",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0005_000033529.jpg",
+          "caption": "Ideas For Decorating A Birthday Cake - Cake Ideas",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0006_000038030.jpg",
+          "caption": "real time - high quality view of the cake , as well as a birthday sheet ",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000091544.jpg",
+          "caption": "Cake for a teenage Artist",
+          "category": "cake"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000091544.jpg",
+          "caption": "-- the cake that looks like you can use in real - 300 - this is an example of a cake - the concept is made out of cake type ",
+          "category": "cake"
+        }
+      ]
+    },
+    "car": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0003_000018255.jpg",
+          "caption": "the outside automotive industry business and cars ",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000098460.jpg",
+          "caption": "< person >' s shot of one of the cars that used to be in the film format ",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0003_000018255.jpg",
+          "caption": "The Art of Car Design",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000002143.jpg",
+          "caption": "< person >- this picture was taken shows cars ",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000027489.jpg",
+          "caption": "the front view of a car in real world ",
+          "category": "car"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0003_000018255.jpg",
+          "caption": "the outside automotive industry business and cars ",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000098460.jpg",
+          "caption": "< person >' s shot of one of the cars that used to be in the film format ",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0003_000018255.jpg",
+          "caption": "The Art of Car Design",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000002143.jpg",
+          "caption": "< person >- this picture was taken shows cars ",
+          "category": "car"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000027489.jpg",
+          "caption": "the front view of a car in real world ",
+          "category": "car"
+        }
+      ]
+    },
+    "cat": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007374.jpg",
+          "caption": "royalty - free ( < person >) picture of cats in a pet ",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007043.jpg",
+          "caption": "what cats do you know about ? we are the photos of cats and cats on their pet . ",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0019_000109880.jpg",
+          "caption": "high quality picture show how cute cats can be used as a pet ",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000049740.jpg",
+          "caption": "Illustration of a Cute Cat. Cartoon Character",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000094918.jpg",
+          "caption": "A picture of a cat",
+          "category": "cat"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007374.jpg",
+          "caption": "royalty - free ( < person >) picture of cats in a pet ",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007043.jpg",
+          "caption": "what cats do you know about ? we are the photos of cats and cats on their pet . ",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0019_000109880.jpg",
+          "caption": "high quality picture show how cute cats can be used as a pet ",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000049740.jpg",
+          "caption": "Illustration of a Cute Cat. Cartoon Character",
+          "category": "cat"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000094918.jpg",
+          "caption": "A picture of a cat",
+          "category": "cat"
+        }
+      ]
+    },
+    "chair": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000096668.jpg",
+          "caption": "An image of 0414 Dining Chair",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000082617.jpg",
+          "caption": "back to the design : photos of these chairs - a . ",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000085100.jpg",
+          "caption": "full size of chairs - we have been found at this product image . you can now be used for your design . ",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000012075.jpg",
+          "caption": "alternate view of chairs we have been in this product ",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000082617.jpg",
+          "caption": "Chair suitable for a project",
+          "category": "chair"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000096668.jpg",
+          "caption": "An image of 0414 Dining Chair",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000082617.jpg",
+          "caption": "back to the design : photos of these chairs - a . ",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000085100.jpg",
+          "caption": "full size of chairs - we have been found at this product image . you can now be used for your design . ",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000012075.jpg",
+          "caption": "alternate view of chairs we have been in this product ",
+          "category": "chair"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000082617.jpg",
+          "caption": "Chair suitable for a project",
+          "category": "chair"
+        }
+      ]
+    },
+    "cup": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000048841.jpg",
+          "caption": "Image of coffee in a cup",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000080227.jpg",
+          "caption": "2 . 00 - if you want to drink in a cup of coffee , and it looks like small cup ? ",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000040340.jpg",
+          "caption": "A cup of coffee with heart",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000080227.jpg",
+          "caption": "cups of a cup full of coffee -- 3 . 6 `` i think that one would be open to 30 ' x 210 '' ",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000004806.jpg",
+          "caption": "cup with a half full of high quality coffee 250 x 20 year old ",
+          "category": "cup"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000048841.jpg",
+          "caption": "Image of coffee in a cup",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000080227.jpg",
+          "caption": "2 . 00 - if you want to drink in a cup of coffee , and it looks like small cup ? ",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000040340.jpg",
+          "caption": "A cup of coffee with heart",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000080227.jpg",
+          "caption": "cups of a cup full of coffee -- 3 . 6 `` i think that one would be open to 30 ' x 210 '' ",
+          "category": "cup"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000004806.jpg",
+          "caption": "cup with a half full of high quality coffee 250 x 20 year old ",
+          "category": "cup"
+        }
+      ]
+    },
+    "dog": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000090481.jpg",
+          "caption": "all dogs are ? take a picture of your pet , and how do you know what you need to know about their puppy ? ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000010003.jpg",
+          "caption": "a pet - friendly product image of how do dogs do you know ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000084561.jpg",
+          "caption": "so many people have a look at what food - < person > do you know ? this is a picture of dogs ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000015513.jpg",
+          "caption": "dogs at work : this image may contain < person > and pet training ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000097913.jpg",
+          "caption": "< person >, dogs from the free website ... free images ",
+          "category": "dog"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000090481.jpg",
+          "caption": "all dogs are ? take a picture of your pet , and how do you know what you need to know about their puppy ? ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000010003.jpg",
+          "caption": "a pet - friendly product image of how do dogs do you know ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0014_000084561.jpg",
+          "caption": "so many people have a look at what food - < person > do you know ? this is a picture of dogs ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000015513.jpg",
+          "caption": "dogs at work : this image may contain < person > and pet training ",
+          "category": "dog"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000097913.jpg",
+          "caption": "< person >, dogs from the free website ... free images ",
+          "category": "dog"
+        }
+      ]
+    },
+    "horse": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0010_000062370.jpg",
+          "caption": "picture of `` horses '' - < person > are the name of the horses and their horses . ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000086356.jpg",
+          "caption": "1 : picture of horses which is ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000027740.jpg",
+          "caption": "this is an image titled shot of horses ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000098998.jpg",
+          "caption": "picture i know about horses with the picture can be used to be made by < person > ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000048152.jpg",
+          "caption": "my first picture of < person > - this is my horses ",
+          "category": "horse"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0010_000062370.jpg",
+          "caption": "picture of `` horses '' - < person > are the name of the horses and their horses . ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0015_000086356.jpg",
+          "caption": "1 : picture of horses which is ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000027740.jpg",
+          "caption": "this is an image titled shot of horses ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000098998.jpg",
+          "caption": "picture i know about horses with the picture can be used to be made by < person > ",
+          "category": "horse"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0008_000048152.jpg",
+          "caption": "my first picture of < person > - this is my horses ",
+          "category": "horse"
+        }
+      ]
+    },
+    "laptop": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000028468.jpg",
+          "caption": "female laptop seen from the old images ",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000028468.jpg",
+          "caption": "Lady working on a laptop",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000045103.jpg",
+          "caption": "female < person > laptop computer while looking at an 18 th anniversary ",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0010_000057662.jpg",
+          "caption": "Man working on a laptop.",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000096335.jpg",
+          "caption": "laptop that shows why does not look like this on the site of a laptop , but can be found , as well as an 800 x 1470 . ",
+          "category": "laptop"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000028468.jpg",
+          "caption": "female laptop seen from the old images ",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000028468.jpg",
+          "caption": "Lady working on a laptop",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0007_000045103.jpg",
+          "caption": "female < person > laptop computer while looking at an 18 th anniversary ",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0010_000057662.jpg",
+          "caption": "Man working on a laptop.",
+          "category": "laptop"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000096335.jpg",
+          "caption": "laptop that shows why does not look like this on the site of a laptop , but can be found , as well as an 800 x 1470 . ",
+          "category": "laptop"
+        }
+      ]
+    },
+    "orange": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000054392.jpg",
+          "caption": "product image of the < person >' s hand - made brand new orange color ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000100530.jpg",
+          "caption": "`` how to make the most of your orange color ? a classic color orange & gray color scheme ! ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000054392.jpg",
+          "caption": "designed to be the latest < person >' s limited edition orange colour book ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000074937.jpg",
+          "caption": "05 . 76 stock image of orange the surface stock photos ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0010_000061425.jpg",
+          "caption": "Orange Is The New Black",
+          "category": "orange"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000054392.jpg",
+          "caption": "product image of the < person >' s hand - made brand new orange color ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000100530.jpg",
+          "caption": "`` how to make the most of your orange color ? a classic color orange & gray color scheme ! ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000054392.jpg",
+          "caption": "designed to be the latest < person >' s limited edition orange colour book ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000074937.jpg",
+          "caption": "05 . 76 stock image of orange the surface stock photos ",
+          "category": "orange"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0010_000061425.jpg",
+          "caption": "Orange Is The New Black",
+          "category": "orange"
+        }
+      ]
+    },
+    "person": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0012_000070171.jpg",
+          "caption": "<PERSON> -- <PERSON>",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000014339.jpg",
+          "caption": "Art on the <PERSON>",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000001395.jpg",
+          "caption": "an image may contain < person > and text ",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000095848.jpg",
+          "caption": "<PERSON> is a hip exploiter, an intelligent flesh peddler - <PERSON>",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000101589.jpg",
+          "caption": "<PERSON> cartoon fictional character art fiction",
+          "category": "person"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0012_000070171.jpg",
+          "caption": "<PERSON> -- <PERSON>",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0002_000014339.jpg",
+          "caption": "Art on the <PERSON>",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000001395.jpg",
+          "caption": "an image may contain < person > and text ",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0016_000095848.jpg",
+          "caption": "<PERSON> is a hip exploiter, an intelligent flesh peddler - <PERSON>",
+          "category": "person"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0017_000101589.jpg",
+          "caption": "<PERSON> cartoon fictional character art fiction",
+          "category": "person"
+        }
+      ]
+    },
+    "train": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007142.jpg",
+          "caption": "at a train , there are many places you need to know about world on a railway line photography ",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007142.jpg",
+          "caption": "Alternative Ways to Travel the World take the train",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000025034.jpg",
+          "caption": "train driving across which line is seen here at high end of the railway ",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000028236.jpg",
+          "caption": "This, by the way, is our locomotive, at the far end of the train, one of the longest in the UK.",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000025034.jpg",
+          "caption": "passenger train passing by and about 20 m in front of one of the train ",
+          "category": "train"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007142.jpg",
+          "caption": "at a train , there are many places you need to know about world on a railway line photography ",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000007142.jpg",
+          "caption": "Alternative Ways to Travel the World take the train",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000025034.jpg",
+          "caption": "train driving across which line is seen here at high end of the railway ",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000028236.jpg",
+          "caption": "This, by the way, is our locomotive, at the far end of the train, one of the longest in the UK.",
+          "category": "train"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0004_000025034.jpg",
+          "caption": "passenger train passing by and about 20 m in front of one of the train ",
+          "category": "train"
+        }
+      ]
+    },
+    "truck": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000008833.jpg",
+          "caption": "all new trucks for sale - full size trucks , 250 x 17200 - image # 1080 , 1909 - 240 ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000008833.jpg",
+          "caption": "high quality truck - we 've ever found that there are so many cars on sale ? take a look at this site ! ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0011_000064332.jpg",
+          "caption": "it looks like a pretty truck , but if you 've ever found , and it 's hard to figure out a lot of things . ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000003582.jpg",
+          "caption": "name and trucks : you can see it in the front of the back ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000004074.jpg",
+          "caption": "in this picture , we have a look at more than 200 luxury trucks and trucks ! stock photos ",
+          "category": "truck"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000008833.jpg",
+          "caption": "all new trucks for sale - full size trucks , 250 x 17200 - image # 1080 , 1909 - 240 ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0001_000008833.jpg",
+          "caption": "high quality truck - we 've ever found that there are so many cars on sale ? take a look at this site ! ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0011_000064332.jpg",
+          "caption": "it looks like a pretty truck , but if you 've ever found , and it 's hard to figure out a lot of things . ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000003582.jpg",
+          "caption": "name and trucks : you can see it in the front of the back ",
+          "category": "truck"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0000_000004074.jpg",
+          "caption": "in this picture , we have a look at more than 200 luxury trucks and trucks ! stock photos ",
+          "category": "truck"
+        }
+      ]
+    },
+    "tv": {
+      "exact_order_equal": true,
+      "text_set_overlap": 5,
+      "selected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056016.jpg",
+          "caption": "animated tv , ( which is seen from the `` shot '' set in the -- 1900 's -- 20 x 12 / 130 -- the tv -- shot tv genre ",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056016.jpg",
+          "caption": "Sure, Let The TV Raise The Child",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056016.jpg",
+          "caption": "in - game / tv screen - this is what it looks like in the living room ? ",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000051988.jpg",
+          "caption": "the 3 - year - old luxury tv and 2 - bedroom tv , 300 square feet , 2 bath , and a tv stand - in - room tv . ",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000075220.jpg",
+          "caption": "Choosing the perfect TV furniture",
+          "category": "tv"
+        }
+      ],
+      "expected": [
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056016.jpg",
+          "caption": "animated tv , ( which is seen from the `` shot '' set in the -- 1900 's -- 20 x 12 / 130 -- the tv -- shot tv genre ",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056016.jpg",
+          "caption": "Sure, Let The TV Raise The Child",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000056016.jpg",
+          "caption": "in - game / tv screen - this is what it looks like in the living room ? ",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0009_000051988.jpg",
+          "caption": "the 3 - year - old luxury tv and 2 - bedroom tv , 300 square feet , 2 bath , and a tv stand - in - room tv . ",
+          "category": "tv"
+        },
+        {
+          "path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/images/cc12m-train-0013_000075220.jpg",
+          "caption": "Choosing the perfect TV furniture",
+          "category": "tv"
+        }
+      ]
+    }
+  }
+}

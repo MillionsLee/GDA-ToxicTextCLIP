@@ -1,0 +1,31 @@
+{
+  "state": "extraction_complete",
+  "completed": 200,
+  "total": 200,
+  "sources_with_nonempty_D": 149,
+  "category_coverage": {
+    "person": 10,
+    "car": 10,
+    "book": 10,
+    "bed": 10,
+    "dog": 10,
+    "cat": 10,
+    "cake": 10,
+    "chair": 10,
+    "bird": 10,
+    "cup": 10,
+    "bowl": 10,
+    "orange": 10,
+    "horse": 10,
+    "truck": 10,
+    "bottle": 10,
+    "tv": 10,
+    "train": 10,
+    "bear": 10,
+    "apple": 10,
+    "laptop": 10
+  },
+  "seconds": 120.24496269226074,
+  "llm_or_vlm_used": false,
+  "victim_training_started": false
+}

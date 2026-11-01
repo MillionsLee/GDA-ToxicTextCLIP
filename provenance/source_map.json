@@ -1,0 +1,434 @@
+[
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/pkgs/openai/__init__.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/pkgs/openai/clip.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/clip.py",
+    "sha256": "b599b592075cf75b8ce102281cb73a9d9c50207ca32373e6237b210990ff2ce9",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/pkgs/openai/model.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/model.py",
+    "sha256": "20fd6da5ea5e6f8466d5fb54fbffd840dfdcb0b6d8986c173c57b62490ece5e5",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/pkgs/openai/tokenizer.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/pkgs/openai/tokenizer.py",
+    "sha256": "bdfe2b34f6042f1d5ad4f5b3e72ed30eb1c8088573128bee97726e80aad50662",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/__init__.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/data.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/data.py",
+    "sha256": "fb08f4dc6fd73b20a79bb939e3de1f245d82eb56385ea01a049c86a85235e711",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/evaluate.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/evaluate.py",
+    "sha256": "c83c77349fe106ea20ac606ad17ebebe445244c25ac33b0ab48c8f9b32eede48",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/logger.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/logger.py",
+    "sha256": "fbccb6a27f691f63409f8d039d3bae4fe1ea428ce1683dd2b7ee2ca1b55a15c5",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/main.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/main.py",
+    "sha256": "dab6478f764f316d6b5d3d72432cecbab9c208d831cd20b9936319b6f6f16ee4",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/memory_bank.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/memory_bank.py",
+    "sha256": "b619e53156b32c85a658684d33e463d4104de4be31c19ff1b057491b38412f59",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/parser.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/parser.py",
+    "sha256": "ae828e6f30fc9920e2a911663e0f47043bc5bb9e9b8a2608ec1e662f4c83ab76",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/scheduler.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/scheduler.py",
+    "sha256": "1d25629052298779e4ffb0eb1e84b7ccc4db65c8a5d11dba4675fe3fdc221065",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_aware_target_text_telector_and_victim_model/src/train.py",
+    "project_path": "vendor/toxictextclip/Background_aware_target_text_telector_and_victim_model/src/train.py",
+    "sha256": "6fedbc2900b9d4a38e5b1b01bf052311af3e440095eda821464a496b33616d28",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/__init__.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/__init__.py",
+    "sha256": "18a87ae86b91301952a3c4f855c6592a7be4b95b70ed4ac8cd02fb433e4f950f",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/clip.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/clip.py",
+    "sha256": "3a29bc1837acdfbe554ccc46d720f1c11775b1d7ed9ebf568f38f90dd4106789",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/model.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/model.py",
+    "sha256": "d3faca43089fb26edacc9ad6d6cddf2bb8e947649f21488491cdc8056c0cd6a6",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/simple_tokenizer.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/clip/simple_tokenizer.py",
+    "sha256": "e0f5830b4c969099e64212f8058746559ccd14b9df9b3ceaa3993c5bb4c554ff",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/attack3/7_enhance_generation_oridata_prefix.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/experiment/attack3/7_enhance_generation_oridata_prefix.py",
+    "sha256": "1c6fc3b8a2ce10ecca4aadccd09ff89db1aef37d00cd2a00977e5c9d07c3b6f0",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/models/__init__.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/__init__.py",
+    "sha256": "b623ea710fe937f458c3281c8b4840c77d6cd9e2e1d31535990e03573721f2f3",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/models/decode_model.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/decode_model.py",
+    "sha256": "947808660215c58305814f4bbb2dd9d0752572044897537628528591a4a8c18d",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/models/model_decode_use_image_as_context.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/model_decode_use_image_as_context.py",
+    "sha256": "f229de55f49963bcc2b78dc0e15276fd80b2e778ea981751f8f90f59d0bdef25",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/models/modify_model_module.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/modify_model_module.py",
+    "sha256": "b6a5ec032e58a03b7c06129a621253cab8dc5ec6c87157b266c2b31fdcb5721f",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/models/mymodel.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/models/mymodel.py",
+    "sha256": "7558465f497ea361a066b269adfb195b78828010d3a1d82eb34771dffed584ed",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/src/__init__.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/src/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/src/parser.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/src/parser.py",
+    "sha256": "ee5f03d6edde849da0344078be1eac3ba6f32d72fae1affd901e44641a631a71",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/__init__.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/constants.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/constants.py",
+    "sha256": "2c8ba61fd444ffc8ee9740ebbee9dbeee64075dba1e88db8c5b7587d210094a6",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/data_utils.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/data_utils.py",
+    "sha256": "7b1294de92bf89beb5ffb4057cb498d78efdc7c25edf4e2d217e03a7f698e87f",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/decoding_utils.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/decoding_utils.py",
+    "sha256": "98e7d008b66ab6673cc8fce50d377652ddace08c47043bd51803f8787ed56b58",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/decoding_utils_of_dbs.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/decoding_utils_of_dbs.py",
+    "sha256": "587ad8b9c1a065f48ba362133f38c51e37da92c110e0e3ee1679d6214de18503",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/optimizers_and_distributions.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/optimizers_and_distributions.py",
+    "sha256": "2ef4bbafa5d7e394c8476b3358e69eeac85946d893a449a6ffb0bca43fc51946",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/utils.py",
+    "project_path": "vendor/toxictextclip/Background_driven_poisoned_text_augmenter_and_decoder_model/utils/utils.py",
+    "sha256": "c83cf62148fe630888db45e598fed19c43943ef3618cba6ca004bb700b583dcb",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/eval/eval_ca_epoch4.py",
+    "project_path": "vendor/toxictextclip/wbd_data/eval/eval_ca_epoch4.py",
+    "sha256": "a58091fa7eb2ff2a13ed09a1449ce5555890cec6f01a8f0690f98e8204cd392b",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/eval/eval_wbd_epoch4.py",
+    "project_path": "vendor/toxictextclip/wbd_data/eval/eval_wbd_epoch4.py",
+    "sha256": "a3dbae0c44fb8b606436687c48a98df46d3a41c6224f5a832cca4d136d43b89a",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261025/code/iteration_20261025/evaluate_exact.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/evaluate_exact.py",
+    "sha256": "60b622f27286492c0daae9c5ff638f66f95ba6a39e16b61fe4537fac387c3ded",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261025/code/iteration_20261025/gallery_content_audit.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/gallery_content_audit.py",
+    "sha256": "519fdb25d2e5a0cf1c1a99ddb215bc3f5e8fb68e23a451617f36421af0200edd",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261025/code/iteration_20261025/image_evidence.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/image_evidence.py",
+    "sha256": "a0fa64644456a0397e5d01c76d9dca09680580b8276b5801ab9037e673284123",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261025/code/iteration_20261025/native_train.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261025/code/iteration_20261025/native_train.py",
+    "sha256": "e1436827f089b93351780dfac3b41fdf4d733b74614d784597258abea90eec88",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/__init__.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/__init__.py",
+    "sha256": "0e0ed8af72d67f85c0ac1b7894029d4f132abe0ca40ede07d657f7b32ccadb50",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/__main__.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/__main__.py",
+    "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/backend.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/backend.py",
+    "sha256": "9c016b474d5f7deaed389dd3a21ca4e789a5f40f8029e43b5e20bf2e5e195d5c",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/check_gpu.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/check_gpu.py",
+    "sha256": "8a7a1a6fcdf5cc8160b96ec30339d8deebc7051617784b7000370e8bdfbf68ed",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/check_native.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/check_native.py",
+    "sha256": "710b2dd54d84f5eed56f24b232e11273360aca788346e764ee82f70d94f2c11a",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/cli.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/cli.py",
+    "sha256": "d049366bde11750c484fc669c634754f385cb8da7761cc58e57dd04fa7598341",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/core.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/core.py",
+    "sha256": "a916a0ce2f7b8f0991b9aede9f15c399545d227398e972b1a5ddf935b61dee66",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/experiment.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/experiment.py",
+    "sha256": "6118ef0c388002722e054110ff59f7cbf2005491fbf7cd97918227c66af532d2",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/native.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/native.py",
+    "sha256": "2e3613866ed3619fd9d292bc32497f5bb9aa8345e5d8e7d20fa06979694bdbfa",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/pool.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/pool.py",
+    "sha256": "d09f5e6faa14e349c31e7a3a8d62de2a8446433e620a6bfeec9ce8181031f622",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/code_auto/automatic_detail_method/test_method.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/code_auto/automatic_detail_method/test_method.py",
+    "sha256": "938c2b5cff1d5cf06aab6450ef02525fda4f6e5ba471a6a6bc74f4c5aeff7271",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261027/prepare_automatic_plan.py",
+    "project_path": "vendor/toxictextclip/wbd_data/iteration_20261027/prepare_automatic_plan.py",
+    "sha256": "783a2fd1738cb737653a98f38aff43b68544f3c49f096775a0f91468b8032355",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/nonboat20/run_decoder_200.py",
+    "project_path": "vendor/toxictextclip/wbd_data/nonboat20/run_decoder_200.py",
+    "sha256": "a014c01055153f7bb5c9c78afe5e1d7aaf6e2dc017313b3829f89db0aa5bcf3b",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/victim/run_victim.py",
+    "project_path": "vendor/toxictextclip/wbd_data/victim/run_victim.py",
+    "sha256": "ae4fa6c530d96fca2f4ac3feb64bad42f4a1f0edf67c5d0d5543b0ea17f29541",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/__init__.py",
+    "project_path": "automatic_detail_method/__init__.py",
+    "sha256": "0e0ed8af72d67f85c0ac1b7894029d4f132abe0ca40ede07d657f7b32ccadb50",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/__main__.py",
+    "project_path": "automatic_detail_method/__main__.py",
+    "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/backend.py",
+    "project_path": "automatic_detail_method/backend.py",
+    "sha256": "9c016b474d5f7deaed389dd3a21ca4e789a5f40f8029e43b5e20bf2e5e195d5c",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/check_gpu.py",
+    "project_path": "automatic_detail_method/check_gpu.py",
+    "sha256": "8a7a1a6fcdf5cc8160b96ec30339d8deebc7051617784b7000370e8bdfbf68ed",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/check_native.py",
+    "project_path": "automatic_detail_method/check_native.py",
+    "sha256": "710b2dd54d84f5eed56f24b232e11273360aca788346e764ee82f70d94f2c11a",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/cli.py",
+    "project_path": "automatic_detail_method/cli.py",
+    "sha256": "f5c936a9520a188ef32fa764d0ceb162237c5ac630b3718bb2f3310612761986",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/core.py",
+    "project_path": "automatic_detail_method/core.py",
+    "sha256": "a916a0ce2f7b8f0991b9aede9f15c399545d227398e972b1a5ddf935b61dee66",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/experiment.py",
+    "project_path": "automatic_detail_method/experiment.py",
+    "sha256": "6118ef0c388002722e054110ff59f7cbf2005491fbf7cd97918227c66af532d2",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/native.py",
+    "project_path": "automatic_detail_method/native.py",
+    "sha256": "7e9d4d2f9065907110eab3b661b296e1c966c371d20ef770afe79d3e1b0b4901",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/pool.py",
+    "project_path": "automatic_detail_method/pool.py",
+    "sha256": "d09f5e6faa14e349c31e7a3a8d62de2a8446433e620a6bfeec9ce8181031f622",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/automatic_detail_method/test_method.py",
+    "project_path": "automatic_detail_method/test_method.py",
+    "sha256": "938c2b5cff1d5cf06aab6450ef02525fda4f6e5ba471a6a6bc74f4c5aeff7271",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/evaluate_exact.py",
+    "project_path": "pipeline/evaluate_exact.py",
+    "sha256": "60b622f27286492c0daae9c5ff638f66f95ba6a39e16b61fe4537fac387c3ded",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/finish_baseline_only.py",
+    "project_path": "pipeline/finish_baseline_only.py",
+    "sha256": "8d83bab7e62e64fe204aef2eb1d3d6b5ed0bb3a7829d72fa85033c56b4fe463b",
+    "matches_frozen_plan": null
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/gallery_content_audit.py",
+    "project_path": "pipeline/gallery_content_audit.py",
+    "sha256": "519fdb25d2e5a0cf1c1a99ddb215bc3f5e8fb68e23a451617f36421af0200edd",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/native_train.py",
+    "project_path": "pipeline/native_train.py",
+    "sha256": "e1436827f089b93351780dfac3b41fdf4d733b74614d784597258abea90eec88",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/prepare_repeat.py",
+    "project_path": "pipeline/prepare_repeat.py",
+    "sha256": "66c6a64b7245655b7e5ee828104e95451d46be3cc0bb7cb2fce5b550abc22ec1",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/probe_reference_selector.py",
+    "project_path": "pipeline/probe_reference_selector.py",
+    "sha256": "8140d8b41e5c1ed35ad4f9866bb1294c3762b744ba691a9e53beab624d47aaa2",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/reference_select.py",
+    "project_path": "pipeline/reference_select.py",
+    "sha256": "4a593670b89d2f15a765e337e86bbba083df7b5e2218708b602ae836dc7661f6",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/repeat_experiment.py",
+    "project_path": "pipeline/repeat_experiment.py",
+    "sha256": "10ae359dec158237a26bb51a4af2e42b14dee54d186349bf68804850965833b4",
+    "matches_frozen_plan": true
+  },
+  {
+    "original_path": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/resume_remaining_20261101.py",
+    "project_path": "pipeline/resume_remaining_20261101.py",
+    "sha256": "750927cb7bb707b6d982e6268c38542367c52f3cbffbbd5931c5976a330210de",
+    "matches_frozen_plan": null
+  }
+]

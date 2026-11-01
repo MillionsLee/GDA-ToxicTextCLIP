@@ -1,0 +1,30 @@
+{
+  "state": "completed",
+  "stage": "three_group_full_repeat_complete",
+  "pid": 57699,
+  "started_unix": 1793493812.0880136,
+  "resumed_arms": [
+    "original",
+    "new_method"
+  ],
+  "baseline_already_completed": true,
+  "automatic_retry": false,
+  "automatic_training_restart": false,
+  "authorization_file": "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/resume_remaining_request_20261101.json",
+  "three_group_comparison_complete": true,
+  "stage_started_unix": 1793534123.1286957,
+  "child_pid": null,
+  "command": [
+    "/home/million/miniconda3/envs/toxictextclip/bin/python",
+    "-B",
+    "-u",
+    "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/code/gallery_content_audit.py",
+    "--repo",
+    "/home/million/ToxicTextCLIP_W-BD",
+    "--reference",
+    "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261025/reference_01",
+    "--output",
+    "/home/million/ToxicTextCLIP_W-BD/wbd_data/iteration_20261031/full_repeat_01/gallery_after"
+  ],
+  "ended_unix": 1793534134.700987
+}
